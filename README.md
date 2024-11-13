@@ -1,4 +1,4 @@
-<!-- ```markdown -->
+![tasks](https://github.com/user-attachments/assets/d6e2d243-298d-4cd7-9ce0-47b216f7d57f)
 # Chrome Current URL-based Task Manager 🚀
 
 ### A personal productivity tool for tracking tasks based on the URL of your current Chrome tab!
