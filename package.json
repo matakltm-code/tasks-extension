@@ -1,0 +1,35 @@
+{
+  "name": "tasks-extension",
+  "private": true,
+  "version": "0.0.1",
+  "description": "A Chrome extension for managing tasks based on the current URL, built with Vite and TypeScript.",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "author": {
+    "name": "Micheal Ataklt",
+    "email": "matakltm.code@gmail.com",
+    "url": "https://github.com/matakltm-code"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/matakltm-code/tasks-extension.git"
+  },
+  "keywords": [
+    "chrome-extension",
+    "task-manager",
+    "productivity",
+    "vite",
+    "typescript"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "@rollup/plugin-terser": "^0.4.4",
+    "@types/chrome": "^0.0.280",
+    "typescript": "~5.6.2",
+    "vite": "^5.4.10"
+  }
+}

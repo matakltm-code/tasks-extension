@@ -1,0 +1,28 @@
+{
+    "manifest_version": 3,
+    "name": "Tasks",
+    "description": "A Task List that appears on every webpage.",
+    "version": "1.0",
+    "permissions": ["storage", "activeTab"],
+    "background": {
+      "service_worker": "assets/background.js"
+    },
+    "content_scripts": [
+      {
+        "matches": ["<all_urls>"],
+        "js": ["assets/content.js"]
+      }
+    ],
+    "action": {
+      "default_popup": "index.html",
+      "default_icon": {
+        "16": "icons/icon16.png",
+        "48": "icons/icon48.png"
+      }
+    },
+    "host_permissions": [
+      "http://*/*",
+      "https://*/*"
+    ]
+  }
+  
